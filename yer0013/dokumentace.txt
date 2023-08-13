@@ -1,0 +1,24 @@
+Dokumentace Zoo
+
+class Animal Animal reprezentujici ruzne vyskyty zvirat a ukazuje info atd, a take ma static a vicenasobnu dedicnost.
+
+ 
+Animal.cpp ma ShowInfo ktera ukazuje informace a zvirate.
+
+class Caretaker ma dedicnost z Person.
+
+Caretaker.cpp ukazuje info o caretaker.
+
+class Enclosure reprezentujici vybehy a ohrady v zoo a take dynamicke pole zvirat.¨
+
+class LivingBeing ma abstractni tridu a take polimorfism.
+
+class Person reprezentujici osoby ve svete se zakladnimi informacemi, vytvorena jako rodic pro ostratni potomky a pro doplneni poctu potrebnych trid. Ma informace a protected atribute,  pretizene konstruktory a zmena chovani prekrytem.
+
+Person.cpp ukazuje info a person.
+
+class Visitor reprezentujici navstevnik v zoo, s generaci kodu vstupenky 
+
+Visitor.cpp ukazuje info a person.
+
+v hlavnim souboru yer0013 vypisuje info o visitor, info o caretaker, info o 3 zviratech a take static.
